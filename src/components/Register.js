@@ -8,7 +8,6 @@ const Register = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // You can add your registration logic here
         console.log(`username : ${username} password: ${password} email : ${email}`);
       };
     return (
