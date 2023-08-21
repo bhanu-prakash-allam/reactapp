@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Register from './components/Register';
 function App() {
+ 
   return (
-    <div className='bg-primary'>
+    <div>
+      
     <Header></Header>
-    <Home></Home>
+    <Register></Register>
     <Footer></Footer>
     </div>
 
